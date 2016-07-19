@@ -17,12 +17,17 @@ public class guess {
 		else
 		if(ch == stupidAnswer)
 			System.out.println("***you are genius");
-		else 
+		do {  System.out.println("do statement");
+		while (answer =='K'){
 			System.out.println("u dont know nothing");
+		}
+		
+			
 		if (ch < stupidAnswer )
 			System.out.println("to low");
 		else 
 			System.out.println("to high");
-
+		
+		}while (answer =='K');
 }
 }
